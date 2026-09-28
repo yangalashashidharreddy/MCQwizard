@@ -1,0 +1,44 @@
+# 📁 Node (Frontend)
+node_modules/
+.vite/
+coverage/
+build/
+dist/
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 📁 Python (Backend)
+venv/
+.venv/
+env/
+.pytest_cache/
+*.egg-info/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# 🗂️ Environment variables
+.env
+.env.*
+!.env.example
+
+# 🔧 Editor/IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 📄 Logs and OS files
+*.log
+.DS_Store
+Thumbs.db
+*.tmp
+
+# 💾 Other
+frontend/.next/
+frontend/.cache/
